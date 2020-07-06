@@ -6,11 +6,12 @@ def key_for_min_value(name_hash)
   winner = 1000
   name_hash.each do |value, key|
     if key > winner
-      winner = key
+      winner = "#{key}"
     end
   end
-winner
+p "#{value}"
  end
+
 
 hash = {:blake => 500, :ashley => 2, :adam => 1}
 key_for_min_value(hash)
