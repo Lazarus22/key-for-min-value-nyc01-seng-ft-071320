@@ -8,6 +8,7 @@ high_val = 1000
      high_val = value
    end
  end
+ high_val[key]
 end
 
 
