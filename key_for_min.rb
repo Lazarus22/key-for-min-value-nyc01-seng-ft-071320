@@ -6,6 +6,8 @@ high_val = 1000
    hash.each do |key, value|
    if value < high_val
      high_val = value
+   end
+ end
 end
 
 
