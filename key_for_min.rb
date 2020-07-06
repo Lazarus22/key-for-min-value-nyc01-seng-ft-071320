@@ -3,12 +3,12 @@
 
 def key_for_min_value(name_hash)
 high_val = 1000
-   name_hash.each do |key, value|
+   name_hash.each_value do |key, value|
    if value < high_val
      high_val = value
    end
  end
- high_val[key]
+
 end
 
 
