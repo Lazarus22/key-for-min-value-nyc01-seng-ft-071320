@@ -8,7 +8,7 @@ high_val = 1000
      high_val = value
    end
  end
-
+name_hash.high_val
 end
 
 
